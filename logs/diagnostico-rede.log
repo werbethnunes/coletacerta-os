@@ -1,0 +1,31 @@
+======================================
+ DIAGNÓSTICO DE REDE - COLETACERTA
+ Data: Wed Nov 18 17:35:05 -03 2026
+======================================
+
+Hostname:
+coletacerta-server
+
+Interfaces de rede:
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
+eth0             UP             172.28.122.141/20 fe80::215:5dff:febc:8819/64 
+
+Endereço IP da interface eth0:
+172.28.122.141/20
+
+Gateway padrão:
+172.28.112.1
+
+Configuração DNS:
+nameserver 10.255.255.254
+
+Teste de resolução DNS:
+2800:3f0:4001:83a::200e google.com
+DNS funcionando corretamente.
+
+Teste de conectividade:
+Conectividade externa funcionando.
+
+======================================
+ DIAGNÓSTICO FINALIZADO
+======================================
