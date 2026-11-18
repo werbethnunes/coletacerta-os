@@ -1,0 +1,246 @@
+Nov 18 13:39:51 Werbeth systemd[1]: Started coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta.
+Nov 18 13:39:51 Werbeth bash[2075]: Iniciando monitoramento...
+Nov 18 13:39:51 Werbeth bash[2075]: Data: Wed Nov 18 13:39:51 -03 2026
+Nov 18 13:39:51 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:40:24 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:40:57 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:41:30 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:42:03 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:42:37 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:43:10 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:43:43 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:44:16 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:44:46 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:45:19 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:45:53 Werbeth bash[2075]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:46:27 Werbeth systemd[1]: coletacerta-monitoramento.service: Sent signal SIGKILL to main process 2073 (bash) on client request.
+Nov 18 13:46:27 Werbeth systemd[1]: coletacerta-monitoramento.service: Sending signal SIGKILL to process 2075 (tee) on client request.
+Nov 18 13:46:27 Werbeth systemd[1]: coletacerta-monitoramento.service: Sending signal SIGKILL to process 2219 (sleep) on client request.
+Nov 18 13:46:27 Werbeth systemd[1]: coletacerta-monitoramento.service: Main process exited, code=killed, status=9/KILL
+Nov 18 13:46:27 Werbeth systemd[1]: coletacerta-monitoramento.service: Failed with result 'signal'.
+Nov 18 13:46:32 Werbeth systemd[1]: coletacerta-monitoramento.service: Scheduled restart job, restart counter is at 1.
+Nov 18 13:46:32 Werbeth systemd[1]: Started coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta.
+Nov 18 13:46:32 Werbeth bash[2229]: Iniciando monitoramento...
+Nov 18 13:46:32 Werbeth bash[2229]: Data: Wed Nov 18 13:46:32 -03 2026
+Nov 18 13:46:32 Werbeth bash[2229]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:47:05 Werbeth bash[2229]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:47:17 Werbeth systemd[1]: coletacerta-monitoramento.service: Sent signal SIGKILL to main process 2227 (bash) on client request.
+Nov 18 13:47:17 Werbeth systemd[1]: coletacerta-monitoramento.service: Sending signal SIGKILL to process 2229 (tee) on client request.
+Nov 18 13:47:17 Werbeth systemd[1]: coletacerta-monitoramento.service: Sending signal SIGKILL to process 2252 (sleep) on client request.
+Nov 18 13:47:17 Werbeth systemd[1]: coletacerta-monitoramento.service: Main process exited, code=killed, status=9/KILL
+Nov 18 13:47:17 Werbeth systemd[1]: coletacerta-monitoramento.service: Failed with result 'signal'.
+Nov 18 13:47:22 Werbeth systemd[1]: coletacerta-monitoramento.service: Scheduled restart job, restart counter is at 2.
+Nov 18 13:47:22 Werbeth systemd[1]: Started coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta.
+Nov 18 13:47:22 Werbeth bash[2262]: Iniciando monitoramento...
+Nov 18 13:47:22 Werbeth bash[2262]: Data: Wed Nov 18 13:47:22 -03 2026
+Nov 18 13:47:22 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:47:55 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:48:28 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:49:02 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:49:35 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:50:08 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:50:41 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:51:14 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:51:47 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:52:21 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:52:54 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:53:27 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:54:00 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:54:33 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:55:06 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:55:37 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:56:10 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:56:44 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:57:14 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:57:47 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:58:19 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:58:52 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:59:25 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 13:59:55 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:00:29 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:01:02 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:01:35 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:02:08 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:02:41 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:03:14 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:03:48 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:04:21 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:04:54 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:05:27 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:06:00 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:06:33 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:07:06 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:07:40 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:08:13 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:08:43 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:09:16 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:09:49 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:10:22 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:10:55 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:11:28 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:12:01 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:12:35 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:13:08 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:13:41 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:14:14 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:14:47 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:15:20 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:15:54 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:16:27 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:17:00 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:17:30 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:18:03 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:18:36 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:19:10 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:19:43 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:20:16 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:20:49 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:21:22 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:21:55 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:22:28 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:23:02 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:23:35 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:24:08 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:24:41 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:25:14 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:25:47 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:26:18 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:26:51 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:27:24 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:27:57 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:28:30 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:29:03 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:29:37 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:30:10 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:30:43 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:31:16 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:31:49 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:32:22 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:32:55 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:33:28 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:34:02 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:34:35 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:35:05 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:35:38 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:36:11 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:36:44 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:37:18 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:37:51 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:38:24 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:38:57 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:39:30 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:40:03 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:41:57 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:42:31 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:43:01 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:43:32 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:44:05 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:44:38 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:45:11 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:45:44 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:46:17 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:46:50 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:47:23 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:47:54 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:48:27 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:49:00 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:49:33 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:50:06 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:50:39 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:51:13 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:51:46 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:55:56 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:56:30 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:57:00 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:57:31 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:58:02 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:58:34 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:59:07 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 14:59:40 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:00:13 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:00:47 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:01:20 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:01:53 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:02:26 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:02:59 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:03:32 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:04:03 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:04:36 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:05:09 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:05:42 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:39:01 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:39:35 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:40:05 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:40:36 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:41:08 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:41:41 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:42:14 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:42:47 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:43:20 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:43:53 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:44:26 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:44:57 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:45:30 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:46:03 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:46:36 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:47:09 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:47:42 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:48:16 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:48:49 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:49:22 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:49:55 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:50:28 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:51:01 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:51:35 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:52:08 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:52:41 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:53:11 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:53:44 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:54:17 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:54:50 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:55:23 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:55:57 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:56:30 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:57:03 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:57:36 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:58:09 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:58:42 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:59:16 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 15:59:49 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:00:22 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:00:55 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:01:28 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:01:58 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:02:32 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:03:05 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:03:38 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:04:11 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:04:44 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:05:17 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:05:50 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:06:24 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:06:57 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:07:30 Werbeth bash[2262]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:07:36 Werbeth systemd[1]: Stopping coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta...
+Nov 18 16:07:36 Werbeth systemd[1]: coletacerta-monitoramento.service: Deactivated successfully.
+Nov 18 16:07:36 Werbeth systemd[1]: Stopped coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta.
+Nov 18 16:07:36 Werbeth systemd[1]: coletacerta-monitoramento.service: Consumed 8.022s CPU time, 5.2M memory peak, 0B memory swap peak.
+Nov 18 16:07:36 Werbeth systemd[1]: Started coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta.
+Nov 18 16:07:36 Werbeth bash[4818]: Iniciando monitoramento...
+Nov 18 16:07:36 Werbeth bash[4818]: Data: Wed Nov 18 16:07:36 -03 2026
+Nov 18 16:07:36 Werbeth bash[4818]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:07:39 Werbeth systemd[1]: Stopping coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta...
+Nov 18 16:07:39 Werbeth systemd[1]: coletacerta-monitoramento.service: Deactivated successfully.
+Nov 18 16:07:39 Werbeth systemd[1]: Stopped coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta.
+Nov 18 16:07:39 Werbeth systemd[1]: Started coletacerta-monitoramento.service - Monitoramento do sistema ColetaCerta.
+Nov 18 16:07:39 Werbeth bash[4838]: Iniciando monitoramento...
+Nov 18 16:07:39 Werbeth bash[4838]: Data: Wed Nov 18 16:07:39 -03 2026
+Nov 18 16:07:39 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:08:12 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:08:45 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:09:18 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:09:52 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:10:25 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:10:58 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:11:31 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
+Nov 18 16:12:04 Werbeth bash[4838]: CPU: 2% | Memória: 5% | Disco: 1%
