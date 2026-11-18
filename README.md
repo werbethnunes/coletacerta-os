@@ -46,6 +46,8 @@ O script `provisionamento.sh` automatiza:
 - Configuração das permissões.
 - Validação e inicialização do Nginx.
 
+**Pré-requisitos:** Ubuntu configurado, repositório do site clonado em `~/coletacerta-site` e configuração do Nginx disponível em `/etc/nginx/sites-available/coletacerta`.
+
 ## Monitoramento da infraestrutura
 
 O script `monitoramento.sh` realiza coletas periódicas de:
@@ -87,7 +89,43 @@ O diário do systemd também é utilizado para acompanhar as inicializações, i
 
 ## Evidências técnicas
 
-As capturas de tela dos testes e da infraestrutura serão organizadas no diretório `evidencias/prints/` e documentadas nesta seção.
+As imagens abaixo documentam a configuração, execução e os testes realizados na infraestrutura.
+
+### 1. Serviço de monitoramento ativo
+
+![Serviço de monitoramento ativo](evidencias/prints/01-servico-monitoramento-ativo.png)
+
+### 2. Servidor Nginx ativo
+
+![Nginx ativo](evidencias/prints/02-nginx-ativo.png)
+
+### 3. Aplicação Web hospedada
+
+![Site ColetaCerta hospedado](evidencias/prints/03-site-coletacerta-hospedado.png)
+
+### 4. Configuração do Nginx
+
+![Configuração do Nginx](evidencias/prints/04-configuracao-nginx.png)
+
+### 5. Recuperação automática do serviço
+
+![Recuperação automática](evidencias/prints/05-recuperacao-automatica.png)
+
+### 6. Logs de monitoramento
+
+![Logs de monitoramento](evidencias/prints/06-logs-monitoramento.png)
+
+### 7. Configuração dos alertas
+
+![Configuração dos alertas](evidencias/prints/07-configuracao-alertas.png)
+
+### 8. Testes práticos dos alertas
+
+![Testes dos alertas](evidencias/prints/08-testes-praticos-alertas.png)
+
+### 9. Provisionamento automatizado
+
+![Provisionamento automatizado](evidencias/prints/09-provisionamento-automatizado.png)
 
 ## Integrantes
 
@@ -101,7 +139,6 @@ As capturas de tela dos testes e da infraestrutura serão organizadas no diretó
 
 ## Instituição
 
-FIAP — Engenharia de Software
+FIAP - Engenharia de Software
 
 Global Solution 2026.2 — CitizenTech
-
