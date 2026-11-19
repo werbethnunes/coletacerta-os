@@ -2,8 +2,13 @@
 
 set -e
 
-PROJECT_DIR="$HOME/coletacerta-os"
-SITE_DIR="$HOME/coletacerta-site"
+USUARIO="${SUDO_USER:-$(id -un)}"
+HOME_USUARIO="$(getent passwd "$USUARIO" | cut -d: -f6)"
+
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
+SITE_DIR="$HOME_USUARIO/coletacerta-site"
 WEB_DIR="/var/www/coletacerta"
 LOG_DIR="$PROJECT_DIR/logs"
 CONFIG_FILE="$PROJECT_DIR/config/coletacerta"
@@ -23,7 +28,7 @@ sudo apt install -y nginx git curl htop
 
 if [ ! -d "$SITE_DIR/.git" ]; then
     echo "Clonando aplicação..."
-    git clone https://github.com/werbethnunes/coletaCerta.git "$SITE_DIR"
+    sudo -u "$USUARIO" git clone https://github.com/werbethnunes/coletaCerta.git "$SITE_DIR"
 fi
 
 if [ ! -f "$SITE_DIR/index.html" ]; then
