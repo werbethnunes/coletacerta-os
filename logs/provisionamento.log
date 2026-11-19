@@ -67,3 +67,74 @@ Synchronizing state of nginx.service with SysV service script with /usr/lib/syst
 Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
 Provisionamento concluído!
 Data: Wed Nov 18 16:41:15 -03 2026
+Iniciando provisionamento em Wed Nov 18 17:41:44 -03 2026
+Atualizando pacotes...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Get:5 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1198 kB]
+Get:6 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1229 kB]
+Fetched 2553 kB in 2s (1023 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Instalando dependências...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nginx is already the newest version (1.24.0-2ubuntu7.19).
+git is already the newest version (1:2.43.0-1ubuntu7.4).
+curl is already the newest version (8.5.0-2ubuntu10.16).
+htop is already the newest version (3.3.0-4build1).
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+Preparando diretório da aplicação...
+Configurando Nginx...
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+Verificando aplicação...
+Aplicação disponível em http://localhost
+Provisionamento concluído em Wed Nov 18 17:41:50 -03 2026
+Iniciando provisionamento em Wed Nov 18 18:05:36 -03 2026
+Atualizando pacotes...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Instalando dependências...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nginx is already the newest version (1.24.0-2ubuntu7.19).
+git is already the newest version (1:2.43.0-1ubuntu7.4).
+curl is already the newest version (8.5.0-2ubuntu10.16).
+htop is already the newest version (3.3.0-4build1).
+0 upgraded, 0 newly installed, 0 to remove and 10 not upgraded.
+Preparando diretório da aplicação...
+Configurando Nginx...
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+Verificando aplicação...
+Aplicação disponível em http://localhost
+Provisionamento concluído em Wed Nov 18 18:05:40 -03 2026

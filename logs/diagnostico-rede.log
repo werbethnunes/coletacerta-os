@@ -7,8 +7,8 @@ Hostname:
 coletacerta-server
 
 Interfaces de rede:
-lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
-eth0             UP             172.28.122.141/20 fe80::215:5dff:febc:8819/64 
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128
+eth0             UP             172.28.122.141/20 fe80::215:5dff:febc:8819/64
 
 Endereço IP da interface eth0:
 172.28.122.141/20
@@ -29,3 +29,85 @@ Conectividade externa funcionando.
 ======================================
  DIAGNÓSTICO FINALIZADO
 ======================================
+Diagnóstico de rede iniciado em Wed Nov 18 17:55:51 -03 2026
+
+Hostname:
+coletacerta-server
+OK: Hostname identificado
+
+Interfaces de rede:
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128
+eth0             UP             172.28.122.141/20 fe80::215:5dff:febc:8819/64
+OK: Interface eth0 ativa com IP 172.28.122.141/20
+
+Gateway padrão:
+172.28.112.1
+OK: Gateway identificado
+
+Configuração DNS:
+10.255.255.254
+OK: Servidor DNS identificado
+
+Teste de resolução DNS:
+OK: Resolução DNS funcionando
+
+Teste de conectividade:
+OK: Conectividade externa funcionando
+
+Diagnóstico finalizado em Wed Nov 18 17:55:51 -03 2026
+Total de falhas: 0
+Resultado: rede operacional
+Diagnóstico de rede iniciado em Wed Nov 18 17:56:28 -03 2026
+
+Hostname:
+coletacerta-server
+OK: Hostname identificado
+
+Interfaces de rede:
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128
+eth0             UP             172.28.122.141/20 fe80::215:5dff:febc:8819/64
+OK: Interface eth0 ativa com IP 172.28.122.141/20
+
+Gateway padrão:
+FALHA: Gateway padrão não encontrado
+
+Configuração DNS:
+10.255.255.254
+OK: Servidor DNS identificado
+
+Teste de resolução DNS:
+OK: Resolução DNS funcionando
+
+Teste de conectividade:
+OK: Conectividade externa funcionando
+
+Diagnóstico finalizado em Wed Nov 18 17:56:28 -03 2026
+Total de falhas: 1
+Diagnóstico de rede iniciado em Wed Nov 18 18:04:35 -03 2026
+
+Hostname:
+coletacerta-server
+OK: Hostname identificado
+
+Interfaces de rede:
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128
+eth0             UP             172.28.122.141/20 fe80::215:5dff:febc:8819/64
+OK: Interface eth0 ativa com IP 172.28.122.141/20
+
+Gateway padrão:
+172.28.112.1
+OK: Gateway identificado
+
+Configuração DNS:
+10.255.255.254
+OK: Servidor DNS identificado
+
+Teste de resolução DNS:
+OK: Resolução DNS funcionando
+
+Teste de conectividade:
+OK: Conectividade externa funcionando
+
+Diagnóstico finalizado em Wed Nov 18 18:04:35 -03 2026
+Total de falhas: 0
+Resultado: rede operacional

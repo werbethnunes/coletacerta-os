@@ -5,35 +5,53 @@ set -e
 
 PROJECT_DIR="$HOME/coletacerta-os"
 LOG_DIR="$PROJECT_DIR/logs"
+LOG_FILE="$LOG_DIR/monitoramento.log"
+INTERVALO=30
+LIMITE=80
 
 mkdir -p "$LOG_DIR"
 
-LOG_FILE="$LOG_DIR/monitoramento.log"
+exec >> "$LOG_FILE" 2>&1
 
-exec > >(tee -a "$LOG_FILE") 2>&1
-
-echo "Iniciando monitoramento..."
-echo "Data: $(date)"
+echo "Monitoramento iniciado em $(date)"
 
 while true; do
-    CPU=$(top -bn1 | grep "Cpu(s)" | awk '{print 2}')
-    MEMORIA=$(free | awk '/Mem:/ {printf "%.0f", $3/$2 * 100}')
-    DISCO=$(df / | awk 'END {gsub("%","",$5); print $5}')
+    CPU_OCIOSA=$(LC_ALL=C top -bn1 | awk -F',' '/Cpu\(s\)/ {
+        for (i=1; i<=NF; i++) {
+            if ($i ~ / id/) {
+                gsub(/[^0-9.]/, "", $i)
+                print $i
+                exit
+            }
+        }
+    }')
 
-    echo "CPU: $CPU% | Memória: $MEMORIA% | Disco: $DISCO%"
+    CPU=$(awk -v idle="$CPU_OCIOSA" 'BEGIN {
+        printf "%.0f", 100 - idle
+    }')
 
-    if [ "$CPU" -ge 80 ]; then
-        echo "ALERTA: Uso elevado de CPU!"
+    MEMORIA=$(free | awk '/Mem:/ {
+        printf "%.0f", ($3 / $2) * 100
+    }')
+
+    DISCO=$(df -P / | awk 'NR==2 {
+        gsub("%", "", $5)
+        print $5
+    }')
+
+    echo "$(date '+%d/%m/%Y %H:%M:%S') | CPU: ${CPU}% | Memória: ${MEMORIA}% | Disco: ${DISCO}%"
+
+    if [ "$CPU" -ge "$LIMITE" ]; then
+        echo "ALERTA: Uso de CPU acima de ${LIMITE}%"
     fi
 
-    if [ "$MEMORIA" -ge 80 ]; then
-        echo "ALERTA: Uso elevado de memória!"
+    if [ "$MEMORIA" -ge "$LIMITE" ]; then
+        echo "ALERTA: Uso de memória acima de ${LIMITE}%"
     fi
 
-    if [ "$DISCO" -ge 80 ]; then
-        echo "ALERTA: Espaço em disco elevado!"
+    if [ "$DISCO" -ge "$LIMITE" ]; then
+        echo "ALERTA: Uso de disco acima de ${LIMITE}%"
     fi
 
-    sleep 30
+    sleep "$INTERVALO"
 done
-

@@ -3,11 +3,10 @@ Description=Monitoramento do sistema ColetaCerta
 After=network.target
 
 [Service]
-User=ideapad
-ExecStart=/bin/bash /home/ideapad/coletacerta-os/scripts/monitoramento.sh
+User=%i
+ExecStart=/bin/bash /home/%i/coletacerta-os/scripts/monitoramento.sh
 Restart=always
 RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
-
