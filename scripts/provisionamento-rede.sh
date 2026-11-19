@@ -5,7 +5,7 @@ set -e
 PROJECT_DIR="$HOME/coletacerta-os"
 LOG_DIR="$PROJECT_DIR/logs"
 LOG_FILE="$LOG_DIR/provisionamento-rede.log"
-USUARIO=$(id -un)
+USUARIO="${SUDO_USER:-$(id -un)}"
 
 mkdir -p "$LOG_DIR"
 exec > >(tee -a "$LOG_FILE") 2>&1
